@@ -54,7 +54,6 @@ public class Querys {
 	}
 
 	public boolean exists(String toCompare, Tipo tipo) {
-		// Pode ser necessário mudar de PreparedStatement para Statement
 		String query = "";
 		boolean retorno = false;
 		if (tipo == Tipo.UUID) {
@@ -85,7 +84,6 @@ public class Querys {
 	}
 
 	public int getBlocos(UUID uid) {
-		// Pode ser necessário mudar de PreparedStatement para Statement
 		String query = "select blocos from " + db + " where UUID = " + uid.toString();
 		int blocos = 0;
 		PreparedStatement pstmt = null;
@@ -136,7 +134,6 @@ public class Querys {
 	}
 
 	public String getCode(UUID uid) {
-		// Pode ser necessário mudar de PreparedStatement para Statement
 		String query = "select UUID, codigo from " + db + " where UUID = " + uid.toString();
 		ResultSet rs = null;
 		PreparedStatement pstmt = null;
