@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "management.endpoints.web.exposure.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.include'"
+  },
+  {
+    "name": "info.app.name",
+    "type": "java.lang.String",
+    "description": "A description for 'info.app.name'"
+  },
+  {
+    "name": "management.endpoint.shutdown.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.shutdown.enabled'"
+  },
+  {
+    "name": "management.endpoints.web.exposure.exclude",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.exclude'"
+  },
+  {
+    "name": "info.app.groupId",
+    "type": "java.lang.String",
+    "description": "A description for 'info.app.groupId'"
+  },
+  {
+    "name": "info.app.artifactId",
+    "type": "java.lang.String",
+    "description": "A description for 'info.app.artifactId'"
+  },
+  {
+    "name": "info.app.version",
+    "type": "java.lang.String",
+    "description": "A description for 'info.app.version'"
+  },
+  {
+    "name": "management.info.git.mode",
+    "type": "java.lang.String",
+    "description": "A description for 'management.info.git.mode'"
+  }
+]}
